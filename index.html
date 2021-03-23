@@ -7,21 +7,23 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="border">
-      <div class="white-border"></div>
+    <div class="container">
+      <div class="border">
+        <div class="white-border"></div>
+      </div>
+      <span class="js-clock clock">
+        <div class="bignum" id="hour">
+          hour
+        </div>
+        <div id="ampm">
+          ampm
+        </div>
+        <div class="bignum" id="minute">
+          minute
+        </div>
+      </span>
+      <div class="inner-background"></div>
     </div>
-    <span class="js-clock clock">
-      <div class="bignum" id="hour">
-        hour
-      </div>
-      <div id="ampm">
-        ampm
-      </div>
-      <div class="bignum" id="minute">
-        minute
-      </div>
-    </span>
-    <div class="inner-background"></div>
     <script src="script.js"></script>
   </body>
 </html>
