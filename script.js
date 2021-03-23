@@ -44,7 +44,7 @@ function getTime() {
 
 function init() {
   paintTime();
-  setInterval(paintTime, 1000);
+  setInterval(paintTime, 10000);
 }
 
 init();

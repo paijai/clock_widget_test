@@ -1,33 +1,25 @@
-.title {
+.border{
   position: absolute;
-  width: 165px;
-  height: 115px;
+  width: 150px;
+  height: 100px;
   top: 0px;
   left: 0px;
-  border: 2px solid #f7f7f7;
+  box-shadow: 0px 0px 4px 1px inset rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  padding: 8.5px;
   border-radius: 4px;
 }
 
 .white-border {
-  border: 8px solid rgb(255, 255, 255);
+  border: 8px solid #f5f5f5;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px 1px inset rgba(0, 0, 0, 0.2);
   position: absolute;
   width: 150px;
   height: 100px;
-  z-index: 3;
   top: 0px;
   left: 0px;
-}
-
-
-.inner-background{
-  background: #89c0d7; 
-  border: 4px solid #75b4d0;
-  position: absolute;
-  width: 142px;
-  height: 92px;
-  top: 8px;
-  left: 8px;
-  border-radius: 5px;
+  z-index: 3;
 }
 
 .clock{
@@ -40,6 +32,17 @@
   z-index: 2;
   align-content: center;
   color: white;
+}
+
+.inner-background{
+  background: #89c0d7; 
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 7.5px;
+  left: 7.5px;
+  border-radius: 5px;
+  z-index: 1;
 }
 
 .bignum{
@@ -56,4 +59,3 @@
 .pm{
   text-align: end;
 }
-
