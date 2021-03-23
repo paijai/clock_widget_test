@@ -62,8 +62,8 @@
 
 #ampm{
   margin: 0px 25px 0px;
-  font-size: 4px;
-  color: rgba(256, 256, 256, 0.2);
+  font-size: 6px;
+  color: rgba(256, 256, 256, 0.5);
   text-align: end;
 }
 
