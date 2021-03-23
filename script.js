@@ -8,9 +8,6 @@ function paintTime() {
   hour.innerText = addZero(time["hour"]);
   ampm.innerText = time["ampmtext"];
   minute.innerText = addZero(time["minute"]);
-  if (time["ampmtext"] === "pm" && !ampm.classList.contains("pm")) {
-    ampm.classList.toggle("pm");
-  }
 }
 function addZero(time) {
   if (time < 10) {
